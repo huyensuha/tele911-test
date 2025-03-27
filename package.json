@@ -5,7 +5,9 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
-    "@types/node": "^22.13.14"
+    "@types/node": "^22.13.14",
+    "@faker-js/faker": "^7.6.0",
+    "tslog": "^3.3.3"
   },
   "scripts": {}
 }
