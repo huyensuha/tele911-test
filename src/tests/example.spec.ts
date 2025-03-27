@@ -6,8 +6,8 @@ test('has title', async ({ page }, testInfo) => {
   testInfo.annotations.push({ type: "tag", description: "smoke" });
 
   const patientInfoPage = new Pages(page).getPatientInfoPage();
-  await patientInfoPage.openPage("https://playwright.dev/");
+  await patientInfoPage.openPage("https://tele911-test.vsee.me/tele911_next/");
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+
 });
 

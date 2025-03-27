@@ -1,5 +1,6 @@
 import { Page } from "@playwright/test";
-import PatientInfoPage from "./remoteMedic/patientInfoPage";
+import PatientInfoPage from "./remoteMedic/rmPatientInfoPage";
+import RmPatientInfoPage from "./remoteMedic/rmPatientInfoPage";
 
 export class Pages {
     static getPatientInfoPage(): PatientInfoPage {
@@ -13,7 +14,7 @@ export class Pages {
     }
 
     getPatientInfoPage() {
-        return new PatientInfoPage(this.page);
+        return new RmPatientInfoPage(this.page);
     }
 
 }
